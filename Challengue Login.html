@@ -1,0 +1,170 @@
+<style>
+body{
+    background-color: #F5F2EA;
+    font-family: poppins;
+}
+
+#navbar{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+margin:10px;
+padding:15px;
+font-weight: 600;
+}
+
+#signup{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+main{
+background-color: white;
+margin-top: 40px;
+margin-bottom: 90px;
+margin-left: 37%;
+margin-right: 37%;
+height: auto;
+border-radius: 35px;
+}
+
+#demo{
+    margin-right:20px;
+    text-decoration: none;
+    color: black;
+    background-color: #FDC886;
+    padding: 10px 25px 10px 25px;
+    border-radius: 8px;
+    border-style: hidden;
+}
+
+#title{
+    text-align: center;
+    padding: 50px 19% 0px 19%;
+}
+#subtitle{
+    text-align: center;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0px 19% 10px 19%;
+    margin-bottom: 30px;
+}
+#emailphone{
+    margin-left: 10%;
+    margin-bottom: 13px;
+    padding: 15px;
+    padding-left: 20px;
+    width: 80%;
+    border-radius: 8px;
+    border-style: solid;
+    border-color:rgb(243,243,243);
+    font-family: poppins;
+    font-weight: 500;
+}
+#password{
+    margin-left: 10%;
+    padding: 15px;
+    padding-left: 20px;
+    width: 80%;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgb(243,243,243);
+    font-family: poppins;
+    font-weight: 500;
+}
+#trouble{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14;
+    color: black;
+    text-align: start;
+    margin-left: 10%;
+}
+#signin{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    color: black;
+    background-color: #FDC886;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 3%;
+    border-radius: 8px;
+    border-style: hidden;
+    font-weight: 700;
+    font-size: 13px;
+}
+#options{
+    text-align: center;
+    padding-top: 5%;
+    font-weight: 500;
+    font-size: 13px;
+}
+#threebuttons{
+    text-align: center;
+}
+#buttons{
+    color:#020202;
+    text-decoration: none;
+    background-color: white;
+    padding: 2%;
+    border-style: solid;
+    border-color:rgb(243,243,243);
+    border-radius: 6px;
+    font-weight: 700;
+    font-family: poppins;
+    font-size: 13;
+    border-width: 2px;
+    padding:10 25 10 25;
+}
+#logo{
+    font-size: 22px;
+    padding-right: 8px;
+
+}
+
+#donthave{
+    padding-top: 5%;
+    padding-bottom: 10%;
+    text-align: center;
+    font-size: 13px;
+}
+#request{
+    text-decoration: none;
+    color: black;
+}
+</style>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Challengue</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" > 
+        <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav id="navbar">
+            <a id="signup" href="">Sign up</a>
+            <a id="demo" href="">Request Demo</a>
+        </nav><br>
+        <main>
+        <div><h1 id="title">Agent Login</h1>
+        <h3 id="subtitle">Hey, Enter your details to get sign in to your account</h3></div>
+            <form>
+                <input id="emailphone" type="text" placeholder="Enter Email / Phone No"><br>
+                <input id="password" type="password" placeholder="Passcode"><br><br>
+                <a id="trouble" href="">Having trouble in sign in?</a><br><br>
+                <a id="signin" href="">Sign in</a>
+            </form>
+            <p id="options">― Or Sign in with ―</p>
+            <div id="threebuttons">
+               <a id="buttons" href="https://www.google.com/" target="_blank"><i id="logo" class="fa fa-google" aria-hidden="true"></i>Google</a>
+               <a id="buttons" href="https://support.apple.com/en-us/HT204053" target="_blank"><i id="logo" class="fa fa-apple" aria-hidden="true"></i> Apple ID</a>
+               <a id="buttons" href="https://www.facebook.com/" target="_blank"><i id="logo" class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</a>
+            </div>
+            <p id="donthave">Don't have an account? <a id="request" href="" style="font-weight:600;">Request Now</a></p>
+        </main>
+    </body>
+</html>
